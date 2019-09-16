@@ -18,6 +18,10 @@ import Menu from "./Menu/Menu.jsx"
 
 import "./App.scss"
 
+/**
+ * Шаблон меню представляет из себя контейнер во весь экран, 
+ * в котором соседничают элементы меню и контента
+ */
 export default class App extends React.Component {
   render() {
     return (

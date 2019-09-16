@@ -6,8 +6,17 @@ import "./nav.scss"
 
 import menu from "./Menu"
 
+
 export default observer(class extends Component {
 
+  /**
+   * Сервис menu хранит в себе сотояние в виде булевой переменной, 
+   * если эта переменная положительна, 
+   * в шаблон менюшки добавляется класс "open",
+   * иначе класс "close", 
+   * 
+   * Остальное из шаблона - это ссылки для react роутера и их стили
+   */
   render() {
     return (
       <div className={"app-menu " + (menu.getToggle? "open": "close")}>
