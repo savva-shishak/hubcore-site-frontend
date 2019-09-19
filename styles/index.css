@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, Avenir Next, Avenir,
+    Helvetica, sans-serif;
+}
+
+nav {
+    text-align: center;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav > ul {
+    padding: 4px 16px;
+}
+
+li {
+    display: flex;
+    padding: 6px 8px;
+}
+
+a {
+    color: #067df7;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.hero {
+    width: 100%;
+    color: #333;
+}
+
+.title {
+    margin: 0;
+    width: 100%;
+    padding-top: 80px;
+    line-height: 1.15;
+    font-size: 48px;
+}
+
+.title,
+.description {
+    text-align: center;
+}
+
+.row {
+    max-width: 880px;
+    margin: 80px auto 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.card {
+    padding: 18px 18px 24px;
+    width: 220px;
+    text-align: left;
+    text-decoration: none;
+    color: #434343;
+    border: 1px solid #9b9b9b;
+}
+
+.card-image {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+}
+
+.card:hover {
+    border-color: #067df7;
+}
+
+.card h3 {
+    margin: auto;
+    text-align: center;
+    color: #067df7;
+    font-size: 18px;
+}
+
+.card p {
+    margin: 0;
+    padding: 12px 0 0;
+    font-size: 13px;
+    color: #333;
+}
+
+.card.counter .actions {
+    display: flex;
+    margin-top: 1rem;
+    justify-content: space-around;
+}
+
+.btn {
+    padding: .5rem;
+    text-transform: uppercase;
+    border: 1px solid darkslateblue;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn.decrease {
+    margin-right: 1rem;
+}
+
+.count {
+    margin-top: 1rem;
+    font-size: 1.5em;
+}
